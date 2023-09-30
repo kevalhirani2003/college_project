@@ -1,0 +1,602 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Education and Welfare",
+        "imagespath": "assets/education.png",
+        "subcategories": [
+          {
+            "id": 102,
+            "name": "National Scheme of Incentive to Girls for Secondary Education",
+            "description": "The National Scheme of Incentive to Girls for Secondary Education is a government initiative aimed at promoting girls' education and addressing gender disparities in secondary education. The scheme provides financial incentives to encourage the enrollment and retention of girls in secondary schools.",
+            "beneficiaries": 
+               "The primary beneficiaries of this scheme are girls studying in classes 9 and 10 in government, government-aided, and local body schools.",
+            "targetSectors": "Education: The scheme aims to promote education among girls and ensure their enrollment and retention in schools.\nHealthcare: It focuses on the health and well-being of mothers and newborns, aiming to reduce maternal and infant mortality rates.\nCommunity and Society: The scheme seeks to raise awareness about the importance of valuing and nurturing the girl child and eliminating gender-based discrimination.",
+            "eligibilityCriteria": "To be eligible for the scheme, a girl must fulfill specific criteria:\n- She should be enrolled in a recognized secondary school, typically in classes 9 and 10.\n- Her family's annual income should be below a specified threshold, which may vary by state/union territory. This income limit ensures that the scheme benefits economically disadvantaged families the most.",
+            "applicationProcess": "The application process for the scheme typically involves the submission of an application form to the concerned school or education department. The school authorities verify the eligibility criteria and process the application to ensure that eligible girls receive the benefits.",
+            "documentsRequired": "The required documents for availing the scheme's benefits may include proof of enrollment in a recognized secondary school, an income certificate to establish eligibility based on the family's income, and any additional documents as specified by the respective state/union territory education department.",
+            "schemeExplanation": "The National Scheme of Incentive to Girls for Secondary Education aims to reduce the gender gap in secondary education by providing financial support to girls. The scheme provides cash incentives to eligible girls to encourage regular attendance and completion of secondary education. By promoting girls' education at this level, the scheme contributes to their empowerment and improved life opportunities."
+          },
+              
+              
+              
+              {
+                "id": 103,
+                "name": "Rani Lakshmibai Scholarship Scheme",
+                "description": "The Rani Lakshmibai Scholarship Scheme is a government initiative aimed at providing financial support to meritorious girl students belonging to economically weaker families. The scheme's goal is to encourage and enable girls to pursue higher education and achieve academic excellence.",
+                "beneficiaries": 
+                 "The primary beneficiaries of this scheme are meritorious girl students from economically weaker families who have excelled in their 10th and 12th standard board examinations.",
+               
+                "targetSectors": 
+                  
+                "Education: The scheme focuses on promoting and supporting girls' education by providing financial assistance for higher studies.\nEmpowerment: By encouraging academic excellence and higher education, the scheme empowers girls to pursue their career aspirations and contribute to society.",
+                  
+                
+                "eligibilityCriteria": "To be eligible for the Rani Lakshmibai Scholarship Scheme, a girl must fulfill the following criteria:\n- She should have passed the 10th or 12th standard board examination with outstanding academic performance.\n- Her family's annual income should be below a specified threshold, which varies depending on the state or union territory.",
+                "applicationProcess": "The application process typically involves the submission of an application form to the concerned education department or agency. The applicants are required to provide proof of their academic achievements and family income along with the application form.",
+                "documentsRequired": "The necessary documents for applying to the scheme may include academic transcripts or mark sheets, proof of family income, a copy of the girl's Aadhar card or identification, and any other documents specified by the authorities.",
+                "schemeExplanation": "The Rani Lakshmibai Scholarship Scheme recognizes the importance of education in the empowerment of girls from economically disadvantaged backgrounds. By providing financial support for higher studies to meritorious girls, the scheme aims to break down barriers to education and career opportunities. This initiative not only encourages academic excellence but also contributes to gender equality and the overall development of society."
+              },
+              
+              {
+                "id": 104,
+                "name": "National Scheme of Incentive to Girls for Secondary Education (NSIGSE)",
+                "description": "The National Scheme of Incentive to Girls for Secondary Education (NSIGSE) is a government initiative designed to promote girls' education and address gender disparities in secondary education. The scheme provides financial incentives to encourage the enrollment and retention of girls in secondary schools, particularly in classes 9 and 10.",
+                "beneficiaries": 
+                   "The primary beneficiaries of the NSIGSE are girls studying in classes 9 and 10 in government, government-aided, and local body schools.",
+                
+                "targetSectors": 
+                 
+                    "Education: The scheme aims to promote education among girls and ensure their enrollment and retention in secondary schools.\nEmpowerment: By supporting girls' education, the scheme empowers them to pursue their academic goals and build a brighter future.",
+                  
+               
+                "eligibilityCriteria": "To be eligible for the NSIGSE, a girl must fulfill specific criteria:\n- She should be enrolled in a recognized secondary school, typically in classes 9 and 10.\n- Her family's annual income should be below a specified threshold, which varies by state or union territory.",
+                "applicationProcess": "The application process for the scheme usually involves the submission of an application form to the respective school or education department. School authorities verify the eligibility criteria and process the application to ensure eligible girls receive the benefits.",
+                "documentsRequired": "Required documents for availing the scheme's benefits may include proof of enrollment in a recognized secondary school, an income certificate to establish eligibility based on the family's income, and any additional documents specified by the respective state or union territory education department.",
+                "schemeExplanation": "The National Scheme of Incentive to Girls for Secondary Education (NSIGSE) plays a crucial role in reducing the gender gap in secondary education. By providing financial support to girls, the scheme encourages regular attendance and completion of secondary education. This initiative not only empowers girls but also contributes to gender equality and the overall development of society by promoting education."
+              },
+              
+              {
+                "id": 105,
+                "name": "Janani Shishu Suraksha Karyakram (JSSK)",
+                "description": "Janani Shishu Suraksha Karyakram (JSSK) is a government program in India aimed at ensuring free and cashless maternity and newborn care services for pregnant women and newborns. The scheme was launched to reduce financial barriers to accessing healthcare during pregnancy, childbirth, and the early days of a newborn's life.",
+                "beneficiaries": 
+                 "The primary beneficiaries of JSSK are pregnant women and newborns. The scheme specifically targets women belonging to economically disadvantaged sections of society to ensure that they receive essential healthcare services without financial burden.",
+              
+                "targetSectors": 
+                 
+                    "Maternal and Child Health: JSSK focuses on improving maternal and child health outcomes by providing free and cashless healthcare services during pregnancy, childbirth, and the postnatal period.",
+                  
+                
+                "eligibilityCriteria": "JSSK does not have individual eligibility criteria. Instead, it is designed to benefit all pregnant women and newborns, with a special focus on economically disadvantaged women.",
+                "applicationProcess": "There is no specific application process for individuals to avail JSSK benefits. Pregnant women are informed about the scheme's services at healthcare facilities, and the healthcare providers ensure that eligible beneficiaries receive free and cashless care.",
+                "documentsRequired": "No specific documents are required from pregnant women to avail JSSK services. The focus is on providing timely and essential healthcare services during pregnancy, childbirth, and the postnatal period.",
+                "schemeExplanation": "The Janani Shishu Suraksha Karyakram (JSSK) is a critical initiative in improving maternal and child health in India. By removing the financial barriers to healthcare services, the scheme ensures that pregnant women receive proper antenatal care, institutional deliveries, and postnatal care, along with essential services for newborns. This significantly contributes to reducing maternal and infant mortality rates and improving the overall health and well-being of mothers and newborns, especially those from economically disadvantaged backgrounds."
+              }
+              ,
+              {
+                "id": 106,
+                "name": "Indira Gandhi Matritva Sahyog Yojana (IGMSY)",
+                "description": "Indira Gandhi Matritva Sahyog Yojana (IGMSY), also known as the Conditional Maternity Benefit (CMB) scheme, is a government welfare program in India aimed at providing financial support to pregnant and lactating women to ensure proper nutrition and health care for themselves and their newborns. The scheme was launched as a pilot project in 2010 and later expanded to cover more regions across the country. The primary goal of IGMSY is to improve the health and well-being of pregnant and lactating women, especially those from economically disadvantaged sections of society.",
+                "beneficiaries": 
+                   "The primary beneficiaries of IGMSY are pregnant and lactating women, particularly those from economically disadvantaged sections of society, who require financial support for proper nutrition and healthcare during pregnancy and breastfeeding.",
+                
+                "targetSectors": 
+                  
+                    "Maternal and Child Health: IGMSY aims to improve the health and nutritional status of pregnant and lactating women and reduce maternal and infant mortality rates.\nFinancial Support: The scheme provides financial assistance to pregnant and lactating women to support their health and nutrition needs during the critical phases of pregnancy and breastfeeding.\nEncouraging Institutional Deliveries: IGMSY promotes institutional deliveries and antenatal care utilization by providing cash incentives to women who access health services.",
+                  
+                
+                "eligibilityCriteria": "To be eligible for IGMSY, a woman must fulfill certain criteria:\n- She should be a pregnant woman of 19 years of age or above.\n- She should be in her first two live births.\n- Her family's annual income should be below a specified threshold, which may vary by state or union territory.",
+                "applicationProcess": "The application process for IGMSY typically involves the identification of eligible beneficiaries by healthcare workers during antenatal check-ups. Once identified, the eligible women are informed about the scheme and assisted in the application process.",
+                "documentsRequired": "The required documents for availing the scheme's benefits may include proof of identity, proof of pregnancy, family income certificate, and any other documents specified by the authorities.",
+                "schemeExplanation": "IGMSY addresses a critical need for proper maternal and child care by providing financial assistance to pregnant and lactating women. The scheme recognizes the importance of adequate nutrition and healthcare during these crucial phases for both the well-being of the mother and the healthy development of the child. By offering direct cash transfers, IGMSY supports women in accessing essential health services and encourages them to opt for institutional deliveries and antenatal/postnatal care. This initiative contributes to reducing maternal and infant mortality rates, promoting healthier pregnancies, and ensuring the overall health and well-being of mothers and children, particularly those from marginalized backgrounds."
+              }
+              
+        ]
+      },
+      {
+        "id": 2,
+
+        "name": "Maternal and Child Health",
+        "imagespath":"assets/Child_care_logo_template_shape_of_the_heart_vector_image_on_VectorStock-removebg-preview 1.png",
+        "subcategories": [
+            {
+                "id": 201,
+                "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+                "description": "Pradhan Mantri Matru Vandana Yojana (PMMVY) is a government program in India aimed at providing financial assistance to pregnant and lactating women. The scheme seeks to improve the health and nutrition of pregnant and lactating women by facilitating adequate rest, nutrition, and proper care during their pregnancy and after childbirth.",
+                "beneficiaries": 
+                   "The primary beneficiaries of PMMVY are pregnant and lactating women who belong to economically disadvantaged sections of society.",
+                
+                "targetSectors": 
+               
+                    "Maternal and Child Health: PMMVY focuses on improving the health and nutritional status of pregnant and lactating women to reduce maternal and infant mortality rates.\nFinancial Support: The scheme provides financial assistance to women during their pregnancy and lactation phases to support their healthcare and nutrition needs.\n,Encouraging Institutional Deliveries: PMMVY encourages pregnant women to opt for institutional deliveries by providing them with financial support.",
+                  
+                
+                "eligibilityCriteria": "To be eligible for PMMVY, a woman must meet certain criteria, including being a pregnant or lactating woman from economically disadvantaged sections.",
+                "applicationProcess": "Eligible beneficiaries are identified through various healthcare and administrative channels, and they are assisted in the application process to avail the scheme's benefits.",
+                "documentsRequired": "The required documents for availing the scheme's benefits may include proof of identity, proof of pregnancy, family income certificate, and other specified documents.",
+                "schemeExplanation": "PMMVY aims to address the health and nutritional needs of pregnant and lactating women. By offering financial support, the scheme encourages women to seek adequate healthcare and nutrition during critical phases, ultimately contributing to the well-being of mothers and children."
+              },
+              
+              {
+                "id": 202,
+                "name": "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)",
+                "description": "The Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA) is an Indian government program aimed at ensuring safe maternity and reducing maternal mortality rates. Launched in 2016, the scheme provides quality antenatal care to pregnant women and promotes institutional deliveries.",
+                "beneficiaries": 
+                 "Pregnant women across India are the primary beneficiaries of PMSMA, especially those in rural and underserved areas who require access to quality antenatal care.",
+                
+                "targetSectors": 
+                
+                    "Maternal and Child Health: PMSMA focuses on improving the health and well-being of pregnant women and reducing maternal mortality rates.\nAntenatal Care: The scheme promotes timely and quality antenatal check-ups for pregnant women to detect and manage pregnancy-related complications.\nPromoting Institutional Deliveries: PMSMA encourages pregnant women to opt for institutional deliveries by providing safe and free delivery services.",
+                  
+                
+                "eligibilityCriteria": "Pregnant women are eligible to benefit from PMSMA. There are no specific income or social criteria, making it accessible to all pregnant women seeking antenatal care.",
+                "applicationProcess": "The application process for PMSMA is straightforward. Pregnant women can visit designated government health facilities for antenatal check-ups and consultations. No formal application is required.",
+                "documentsRequired": "No specific documents are required to access the benefits of PMSMA. Pregnant women may need to provide basic identification details at the health facility.",
+                "schemeExplanation": "PMSMA plays a crucial role in ensuring safe maternity and reducing maternal mortality rates by providing pregnant women with access to quality antenatal care. The scheme's emphasis on early detection and management of pregnancy-related complications contributes to healthier pregnancies and safer deliveries. By encouraging institutional deliveries, PMSMA aims to ensure that pregnant women receive proper medical care during childbirth, reducing the risk of maternal mortality."
+              },
+              
+              {
+                "id": 203,
+                "name": "National Rural Health Mission (NRHM)",
+                "description": "The National Rural Health Mission (NRHM) is a government initiative launched in 2005 to provide accessible, affordable, and quality healthcare to rural populations in India. It aims to address health disparities, improve healthcare infrastructure, and enhance the overall health and well-being of rural communities.",
+                "beneficiaries": 
+                   "The primary beneficiaries of NRHM are rural residents, including women, children, and vulnerable populations, who often face challenges in accessing healthcare services due to geographical and economic factors.",
+                
+                "targetSectors": "Rural Healthcare Infrastructure: NRHM focuses on strengthening rural healthcare infrastructure, including the establishment of sub-centers, primary health centers, and community health centers.\nMaternal and Child Health: The scheme places special emphasis on improving maternal and child healthcare services, reducing maternal and infant mortality rates, and promoting institutional deliveries.\nDisease Control: NRHM addresses various diseases, including communicable and non-communicable diseases, through preventive and curative measures.\nCommunity Participation: The scheme encourages community involvement in healthcare planning and implementation.",
+                  
+                
+                "eligibilityCriteria": "NRHM is designed to benefit all rural residents, and there are no specific individual eligibility criteria. Its services and programs are open to the entire rural population.",
+                "applicationProcess": "There is no formal application process for individuals to avail the benefits of NRHM. Healthcare services are provided at government healthcare facilities in rural areas, and rural residents can access these services as needed.",
+                "documentsRequired": "No specific documents are required for individuals to access healthcare services under NRHM. Patients may need to provide basic identification details at healthcare facilities.",
+                "schemeExplanation": "NRHM plays a pivotal role in improving rural healthcare in India. By focusing on strengthening healthcare infrastructure, enhancing maternal and child healthcare services, and addressing various health challenges, NRHM contributes to better health outcomes in rural areas. The scheme's community-based approach promotes active participation and ownership among rural communities, leading to improved healthcare access and overall well-being."
+              },
+              
+              {
+                "id": 204,
+                "name": "Rashtriya Kishor Swasthya Karyakram (RKSK)",
+                "description": "The Rashtriya Kishor Swasthya Karyakram (RKSK) is a government program launched in India to address the unique healthcare needs and challenges faced by adolescents and young people. It focuses on promoting the overall health and well-being of adolescents, including their physical and mental health, nutrition, and sexual and reproductive health.",
+                "beneficiaries": 
+                  "The primary beneficiaries of RKSK are adolescents and young people in India, particularly those aged 10 to 19 years. The program aims to empower them with knowledge and access to healthcare services to ensure their holistic development.",
+                
+                "targetSectors": 
+                    "Adolescent Health Services: RKSK provides a range of health services tailored to the specific needs of adolescents, including nutrition, sexual and reproductive health, mental health, and substance abuse counseling.\nAwareness and Education: The scheme focuses on creating awareness among adolescents about their health, well-being, and rights.It promotes health education and life skills training.\nPreventive Health Measures: RKSK emphasizes preventive healthcare measures, including vaccination, anemia prevention, and regular health check-ups for adolescents.\n,Community Engagement: The program encourages community participation and engagement to support adolescent health programs and services.",
+                  
+                
+                "eligibilityCriteria": "The RKSK program primarily targets adolescents and young people in the age group of 10 to 19 years. Eligibility is based on age, and the program aims to reach adolescents across different socio-economic backgrounds.",
+                "applicationProcess": "Adolescents can access RKSK services through government healthcare facilities, schools, and community-based outreach programs. There is typically no formal application process for individuals.",
+                "documentsRequired": "No specific documents are required for adolescents to access RKSK services. The program focuses on delivering age-appropriate healthcare and education to this target group.",
+                "schemeExplanation": "RKSK is a vital initiative that recognizes the importance of addressing the unique health needs of adolescents. By providing them with access to comprehensive healthcare services, education, and support, RKSK aims to promote healthy behaviors and choices among young people. This contributes to their overall well-being, helps prevent health issues, and empowers them to make informed decisions regarding their health and future."
+              },
+              
+              {
+                "id": 205,
+                "name": "Janani Suraksha Yojana",
+                "description": "Janani Suraksha Yojana (JSY) is a government of India scheme launched under the National Health Mission (NHM) to reduce maternal and neonatal mortality by promoting institutional deliveries among pregnant women. The program provides financial assistance and support to pregnant women, especially those from marginalized and economically disadvantaged backgrounds.",
+                "beneficiaries": 
+                   "The primary beneficiaries of Janani Suraksha Yojana are pregnant women in India, particularly those from low-income and vulnerable communities. The scheme aims to encourage these women to seek healthcare services during pregnancy and childbirth and deliver their babies in healthcare institutions.",
+                
+                "targetSectors": 
+                    "Maternal Healthcare: JSY focuses on maternal healthcare and encourages pregnant women to avail antenatal check-ups, institutional deliveries, and postnatal care to ensure the health and well-being of both mothers and newborns.\nFinancial Support: The scheme provides cash incentives to pregnant women who opt for institutional deliveries. These incentives help cover the costs associated with transportation and other expenses related to childbirth.\nReducing Maternal Mortality: JSY aims to reduce maternal mortality rates by promoting safe and hygienic deliveries in healthcare facilities and ensuring access to skilled healthcare professionals during childbirth.\nAwareness and Education: The program also includes awareness campaigns to educate pregnant women and communities about the importance of maternal healthcare and institutional deliveries.",
+                 
+                "eligibilityCriteria": "The eligibility criteria for Janani Suraksha Yojana may vary by state or union territory, but typically, pregnant women from economically disadvantaged backgrounds are eligible. The scheme encourages all pregnant women to seek institutional deliveries.",
+                "applicationProcess": "The application process for JSY usually involves the registration of pregnant women at local healthcare centers. After registration, they receive information about the scheme's benefits and are guided through the process of availing financial incentives for institutional deliveries.",
+                "documentsRequired": "To benefit from JSY, pregnant women may be required to provide proof of identity, residence, and pregnancy. This may include documents like Aadhar cards, ration cards, and pregnancy-related records.",
+                "schemeExplanation": "Janani Suraksha Yojana plays a crucial role in promoting safe motherhood and reducing maternal and neonatal mortality in India. By providing financial incentives to pregnant women who choose institutional deliveries, the scheme encourages them to seek proper healthcare during pregnancy and childbirth. This helps ensure the health and well-being of both mothers and newborns and contributes to India's efforts to improve maternal and child healthcare outcomes."
+              }
+              
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Financial Empowerment",
+        "imagespath":"assets/Business_profit__marketing_growth_vector_illustration__Flat_design_suitable_for_many_purposes-removebg-preview 1.png",
+        "subcategories": [
+            {
+                "id": 301,
+                "name": "Sukanya Samriddhi Yojana",
+                "description": "Sukanya Samriddhi Yojana (SSY) is a government savings scheme in India aimed at promoting financial security for the girl child's future education and marriage expenses. The scheme was launched as part of the 'Beti Bachao Beti Padhao' campaign to encourage parents and guardians to save for the girl child's long-term financial needs.",
+                "beneficiaries": 
+                   "The primary beneficiaries of Sukanya Samriddhi Yojana are parents or legal guardians of girl children. The scheme is designed to secure the financial future of the girl child and help meet expenses related to her education and marriage.",
+                
+                "targetSectors": 
+                    "Financial Savings: SSY encourages parents to open savings accounts in the name of their girl child to build a corpus for her future financial requirements.\nEducation and Marriage Expenses: The scheme aims to provide a financial cushion for the girl child's higher education expenses or marriage-related costs when she reaches maturity\nEmpowering the Girl Child: SSY empowers the girl child by providing a financial asset in her name, contributing to her financial independence and well-being.",
+                
+                
+                "eligibilityCriteria": "The eligibility criteria for Sukanya Samriddhi Yojana are as follows:\n- The girl child should be below 10 years of age at the time of account opening.\n- Only one account is allowed per girl child, and a maximum of two accounts can be opened for two girl children in a family.\n- The account can be opened by parents or legal guardians on behalf of the girl child.",
+                "applicationProcess": "To open an SSY account, parents or legal guardians need to visit designated banks or post offices and submit the required documents and account opening form. The initial deposit amount varies and must be deposited annually to keep the account active.",
+                "documentsRequired": "The documents required for opening an SSY account typically include the birth certificate of the girl child, proof of identity, and proof of residence of the parents or legal guardians.",
+                "schemeExplanation": "Sukanya Samriddhi Yojana is a unique savings scheme that focuses on securing the financial future of the girl child. By encouraging parents and guardians to save for their daughter's education and marriage, the scheme contributes to her empowerment and reduces financial burdens on families. The scheme offers attractive interest rates and tax benefits, making it an effective financial tool for long-term planning and achieving financial goals for the girl child."
+              },
+              
+             
+              
+              {
+                "id": 302,
+                "name": "Mahila e-Haat",
+                "description": "Mahila e-Haat is an initiative launched by the Government of India to empower women entrepreneurs and artisans by providing them with an online platform to showcase and sell their products. The scheme leverages e-commerce to enable women to reach a wider customer base and enhance their economic prospects.",
+                "beneficiaries": "The primary beneficiaries of Mahila e-Haat are women entrepreneurs, artisans, and small business owners who create and sell products. The platform offers them an opportunity to expand their market reach and increase sales.",
+                "targetSectors": "Women Entrepreneurs: Mahila e-Haat aims to support and promote women entrepreneurs across various sectors, including handicrafts, textiles, fashion, home décor, and more.\nArtisans and Craftspeople: The scheme provides a platform for artisans and craftspeople, especially women, to showcase and sell their handmade products, preserving traditional craftsmanship.\nEconomic Empowerment: Mahila e-Haat contributes to the economic empowerment of women by enabling them to access a broader customer base and generate sustainable income.",
+                "eligibilityCriteria": "Mahila e-Haat is open to women entrepreneurs, artisans, and small business owners who create products suitable for sale on the platform. There are no specific age or income criteria, making it inclusive for women from diverse backgrounds.",
+                "applicationProcess": "To participate in Mahila e-Haat, women entrepreneurs can visit the official website or app, register as sellers, and upload details of their products for listing. They need to provide necessary information, images, and pricing for their products.",
+                "documentsRequired": "The documentation requirements for joining Mahila e-Haat typically include personal identification details, product images, pricing information, and banking details for financial transactions.",
+                "schemeExplanation": "Mahila e-Haat is a pioneering scheme that harnesses the power of e-commerce to empower women entrepreneurs and artisans. By providing them with a dedicated online platform, the scheme helps women showcase and sell their products to a larger audience, thus increasing their income and economic independence. It also encourages entrepreneurship among women and promotes traditional crafts and skills, ultimately contributing to women's socio-economic development."
+              }
+              ,
+              
+              {
+                "id": 303,
+                "name": "Udyogini Scheme",
+                "description": "The Udyogini Scheme is a government initiative aimed at promoting women entrepreneurship and economic empowerment. It provides financial assistance and support to women entrepreneurs to start and expand their own businesses. The scheme focuses on fostering economic self-reliance among women by offering training, guidance, and financial aid.",
+                "beneficiaries": 
+                 "The Udyogini Scheme primarily targets aspiring and existing women entrepreneurs who wish to start or grow their businesses. It aims to empower women from various backgrounds, including urban and rural areas, by providing them with the necessary resources and support.",
+                
+                "targetSectors": 
+                  
+                    "Women Entrepreneurs: The scheme supports women entrepreneurs across different sectors, including manufacturing, services, agriculture, and small-scale industries.\nSkill Development: It offers training programs and skill development initiatives to enhance the entrepreneurial capabilities and business acumen of women.\nFinancial Assistance: Udyogini provides financial assistance in the form of loans and subsidies to help women entrepreneurs establish or expand their businesses.\nMentorship and Guidance: The scheme connects women entrepreneurs with mentors and business advisors to provide guidance and support throughout their entrepreneurial journey.",
+                  
+                "eligibilityCriteria": "Eligibility criteria for the Udyogini Scheme may vary by state or region. Generally, women who are Indian citizens, above a certain age, and have a viable business idea or an existing enterprise are eligible to apply for the scheme.",
+                "applicationProcess": "Women interested in the Udyogini Scheme can apply through designated government agencies or financial institutions. The application process typically involves submitting a business proposal, financial plan, and other required documents.",
+                "documentsRequired": "The necessary documents for applying to the Udyogini Scheme may include proof of identity, business plan, financial statements, project cost estimates, and any additional documents specified by the authorities.",
+                "schemeExplanation": "The Udyogini Scheme plays a pivotal role in fostering women's entrepreneurship and economic self-sufficiency. By offering financial assistance, training, and mentorship, the scheme empowers women to venture into entrepreneurship, create job opportunities, and contribute to economic growth. It recognizes the potential of women entrepreneurs to drive innovation and bring about positive changes in various sectors."
+              },
+              
+              {
+                "id": 304,
+                "name": "Rashtriya Mahila Kosh (RMK)",
+                "description": "Rashtriya Mahila Kosh (RMK) is a national-level organization that focuses on providing financial assistance and support to women in need. It aims to empower women by offering them access to microfinance services, credit facilities, and financial literacy programs. RMK plays a crucial role in improving the economic status and self-reliance of women across India.",
+                "beneficiaries": 
+                 "The primary beneficiaries of Rashtriya Mahila Kosh are women from diverse backgrounds who require financial assistance and support. This includes women entrepreneurs, self-help groups, and economically disadvantaged women seeking to enhance their livelihoods.",
+             
+                "targetSectors": 
+                  
+                    "Microfinance Services: RMK provides microcredit and financial services to women, enabling them to start or expand small businesses, agricultural activities, and income-generating ventures.\nWomen's Self-Help Groups: The scheme supports and promotes women's self-help groups (SHGs) by offering financial aid, capacity-building programs, and training in various income-generating activities.\nFinancial Literacy: RMK conducts financial literacy and awareness programs to educate women about financial management, savings, and entrepreneurship.\nEmpowering Rural Women: It focuses on empowering rural women by facilitating access to credit and financial resources, helping them become economically self-sufficient.",
+                
+                
+                "eligibilityCriteria": "Eligibility criteria for accessing Rashtriya Mahila Kosh services may vary based on specific programs and projects. Generally, women, especially those belonging to marginalized and economically disadvantaged sections, are eligible to avail of RMK's financial assistance and support.",
+                "applicationProcess": "Women seeking financial assistance from Rashtriya Mahila Kosh can apply through designated RMK offices or partner organizations. The application process typically involves submitting an application form, business proposal, and any required documents.",
+                "documentsRequired": "The necessary documents for applying to Rashtriya Mahila Kosh may include proof of identity, address, income, and project details, depending on the nature of financial assistance sought.",
+                "schemeExplanation": "Rashtriya Mahila Kosh plays a vital role in promoting financial inclusion and economic empowerment of women in India. By offering microcredit, financial services, and support to women entrepreneurs and self-help groups, RMK contributes to poverty alleviation, women's self-reliance, and economic development. The scheme empowers women to become financially independent and improve their quality of life."
+              },
+              
+              {
+                "id": 305,
+                "name": "Pradhan Mantri Mudra Yojana",
+                "description": "Pradhan Mantri Mudra Yojana (PMMY) is a government initiative launched by the Indian government to provide financial support and funding to micro-enterprises, small businesses, and individuals looking to start or expand their small businesses. The scheme aims to promote entrepreneurship and self-employment by facilitating access to affordable loans and credit for business development.",
+                "beneficiaries": 
+            "The primary beneficiaries of Pradhan Mantri Mudra Yojana are micro and small business owners, entrepreneurs, and individuals seeking financial assistance to establish or grow their small enterprises. The scheme particularly benefits those who often face difficulty accessing traditional sources of credit.",
+                
+                "targetSectors": 
+                    "Micro and Small Enterprises: PMMY targets micro and small enterprises across various sectors, including manufacturing, services, trading, and agriculture\nStartups and Entrepreneurs: The scheme supports startups and individuals with innovative business ideas by providing them with the necessary funding to kickstart their ventures.\nJob Creation: By promoting entrepreneurship and small businesses, PMMY contributes to job creation, which is essential for economic growth and livelihood generation.",
+                  
+                
+                "eligibilityCriteria": "The eligibility criteria for Pradhan Mantri Mudra Yojana vary based on the three categories of loans under the scheme, namely Shishu, Kishor, and Tarun. The specific eligibility requirements are determined by lending institutions, but typically, individuals or businesses with viable project proposals are eligible to apply for loans.",
+                "applicationProcess": "To apply for a loan under Pradhan Mantri Mudra Yojana, individuals and businesses can approach participating banks, microfinance institutions, or non-banking financial companies (NBFCs). The application process involves submitting a loan application form along with relevant documents and business plans.",
+                "documentsRequired": "The documents required for availing loans under PMMY may include identity proof, address proof, business plan, project cost estimates, and other documents as specified by the lending institution.",
+                "schemeExplanation": "Pradhan Mantri Mudra Yojana plays a pivotal role in supporting small businesses and entrepreneurship in India. By providing access to credit and loans, the scheme empowers individuals and enterprises to realize their business aspirations, create employment opportunities, and contribute to economic development. PMMY encourages financial inclusion, fosters innovation, and promotes self-reliance among aspiring entrepreneurs and small business owners."
+              }
+              
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Housing and Livelihood",
+        "imagespath": "assets/Real_Estate_Symbols_Clipart_Vector__Real_Estate_Business_Logo_Template_Building_And_Construction_Logo_Vector_Design__Illustration__Home__Real_PNG_Image_For_Free_Download-removebg-preview 1.png",
+        "subcategories": [
+            {
+                "id": 401,
+                "name": "Pradhan Mantri Awas Yojana (Urban) - Women Component",
+                "description": "The Pradhan Mantri Awas Yojana (Urban) - Women Component is a sub-scheme of the larger PMAY(U) aimed at providing affordable housing solutions to urban women. Under this component, financial assistance is provided to eligible women for the construction or enhancement of their homes in urban areas, ensuring safe and secure housing for women and their families.",
+                "beneficiaries": 
+                 "The primary beneficiaries of this scheme are women residing in urban areas who belong to economically weaker sections (EWS) or low-income groups (LIG). It focuses on empowering women by providing them with housing solutions and ensuring their shelter security.",
+                
+                "targetSectors":
+                    "Affordable Housing: The scheme aims to address the housing needs of women in economically weaker sections and low-income groups, promoting the construction and enhancement of affordable houses.\nWomen's Empowerment: PMAY(U) - Women Component empowers women by making them homeowners, ensuring their financial inclusion and promoting gender equality in urban housing.\nUrban Development: The scheme contributes to urban development by providing housing solutions that meet the needs of urban women and their families.",
+                
+                "eligibilityCriteria": "To be eligible for assistance under this scheme, women must meet certain criteria, including proof of residence in an urban area, belonging to EWS or LIG categories, and other criteria as specified by the program guidelines.",
+                "applicationProcess": "Women eligible for the PMAY(U) - Women Component can apply for assistance through the designated local urban bodies or housing agencies. They need to submit the necessary application forms, documents, and project details as required.",
+                "documentsRequired": "Applicants typically need to provide identity proof, residence proof, income certificates, and project details for availing benefits under the scheme.",
+                "schemeExplanation": "The Pradhan Mantri Awas Yojana (Urban) - Women Component recognizes the importance of providing secure housing to urban women from economically disadvantaged backgrounds. By facilitating affordable housing solutions, the scheme empowers women with homeownership, enhances their living conditions, and contributes to their overall well-being. This initiative aligns with the broader goal of promoting urban development and inclusive growth."
+              },
+              
+              {
+                "id": 402,
+                "name": "National Rural Livelihoods Mission (NRLM)",
+                "description": "The National Rural Livelihoods Mission (NRLM) is a flagship program launched by the Government of India to alleviate poverty and improve the livelihoods of rural households, particularly women and marginalized communities. NRLM aims to create sustainable livelihood opportunities and enhance the social and economic empowerment of rural communities.",
+                "beneficiaries": 
+                  "The primary beneficiaries of NRLM are rural women, particularly those from below the poverty line (BPL) households, scheduled castes (SCs), scheduled tribes (STs), and other marginalized groups. The program prioritizes the empowerment of women and marginalized communities by building their capacities and providing them with resources.",
+
+                "targetSectors": 
+                             "Poverty Alleviation: NRLM focuses on poverty reduction by promoting income-generating activities and livelihood enhancement for rural households.\nWomen Empowerment: The mission empowers women by facilitating their participation in self-help groups (SHGs) and decision-making processes, thereby enhancing their socio-economic status.\nCapacity Building: NRLM provides training and capacity-building support to rural communities to improve their livelihood skills and entrepreneurial abilities.",
+                 
+                "eligibilityCriteria": "The eligibility criteria for participation in NRLM programs may vary by state and region. Generally, rural women and marginalized communities from BPL households, SCs, STs, and other disadvantaged groups are eligible for participation.",
+                "applicationProcess": "The application process for NRLM programs involves the formation of self-help groups (SHGs) at the community level. Interested individuals can join or form SHGs and participate in various livelihood activities and financial inclusion programs.",
+                "documentsRequired": "While specific documentation requirements may vary, individuals typically need to provide identity proof, address proof, and other relevant documents as per the guidelines of the NRLM program.",
+                "schemeExplanation": "The National Rural Livelihoods Mission (NRLM) plays a pivotal role in addressing rural poverty and promoting women's empowerment in India. By creating opportunities for sustainable livelihoods, enhancing financial inclusion, and empowering women through self-help groups, NRLM contributes to improving the quality of life for rural communities. This mission aligns with broader development goals, including poverty reduction, gender equality, and social inclusion."
+              },
+              
+              {
+                "id": 403,
+                "name": "Support to Training and Employment Programme for Women (STEP)",
+                "description": "The Support to Training and Employment Programme for Women (STEP) is a government initiative in India aimed at empowering women by providing training and employment opportunities. The scheme focuses on enhancing the employability of women and enabling them to participate in various skill development and income-generating activities.",
+                "beneficiaries": 
+                  "The primary beneficiaries of the STEP scheme are women of all age groups, especially those from disadvantaged backgrounds and marginalized communities. The program aims to empower women by equipping them with skills for better livelihoods and economic independence.",
+                
+                "targetSectors":  
+                    "Skill Development: STEP emphasizes skill development and training programs to enhance the employability of women in diverse sectors, including traditional and non-traditional trades.\nEmployment Generation: The scheme promotes income-generating activities and entrepreneurship among women, enabling them to create their livelihood opportunities.\nWomen's Empowerment: STEP supports women's economic independence, self-reliance, and social inclusion by providing access to training, resources, and financial support.",
+                  
+                
+                "eligibilityCriteria": "The eligibility criteria for participation in STEP programs may vary based on the specific training or employment opportunity. Generally, women of all age groups and backgrounds are eligible to participate in skill development and employment programs offered under STEP.",
+                "applicationProcess": "Women interested in participating in STEP programs can apply through designated training centers and organizations offering skill development and employment opportunities. The application process typically involves registration and assessment of the applicant's training or employment needs.",
+                "documentsRequired": "While specific documentation requirements may vary, participants may need to provide identity proof, address proof, educational qualifications, and other relevant documents as per the guidelines of the STEP program.",
+                "schemeExplanation": "The Support to Training and Employment Programme for Women (STEP) plays a crucial role in empowering women by equipping them with skills and resources for economic independence. By focusing on skill development, employment generation, and entrepreneurship, STEP contributes to women's empowerment, poverty reduction, and social inclusion. The program aligns with broader objectives of gender equality, economic development, and women's participation in the workforce."
+              },
+              
+              {
+                "id": 404,
+                "name": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)",
+                "description": "The Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM) is a comprehensive poverty alleviation program in India aimed at improving the livelihoods of rural households, especially those living below the poverty line. The mission focuses on organizing women into self-help groups (SHGs) and providing them with social and financial support to enhance their economic well-being.",
+                "beneficiaries": 
+                "The primary beneficiaries of the DAY-NRLM scheme are rural households living below the poverty line, with a special emphasis on women. The program aims to empower women by promoting their participation in self-help groups and income-generating activities.",
+                
+                "targetSectors": 
+                    "Women Empowerment: DAY-NRLM emphasizes the economic and social empowerment of women through self-help groups, skill development, and access to financial services.\nRural Livelihoods: The mission focuses on creating sustainable livelihood opportunities for rural households by promoting activities such as agriculture, livestock rearing, handicrafts, and more.\nFinancial Inclusion: DAY-NRLM facilitates access to credit and financial services for rural communities, enabling them to invest in income-generating activities.",
+                
+                "eligibilityCriteria": "Eligibility for participation in DAY-NRLM programs is typically based on household income and residence in rural areas. Priority is given to households below the poverty line, and a special emphasis is placed on women's participation in self-help groups.",
+                "applicationProcess": "The application process for DAY-NRLM programs involves mobilization and formation of self-help groups (SHGs) at the community level. Interested rural households can approach the designated implementing agencies and community resource persons for participation.",
+                "documentsRequired": "While specific documentation requirements may vary, participants may need to provide identity proof, income-related documents, and other relevant information during the formation of self-help groups and program enrollment.",
+                "schemeExplanation": "The Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM) is a vital initiative to combat rural poverty and empower women in India. By organizing rural communities into self-help groups and promoting various livelihood activities, the mission enhances economic opportunities, financial inclusion, and social empowerment. DAY-NRLM aligns with broader objectives of poverty reduction, rural development, and inclusive growth."
+              },
+              
+              {
+                "id": 405,
+                "name": "National Apprenticeship Promotion Scheme (NAPS)",
+                "description": "The National Apprenticeship Promotion Scheme (NAPS) is a government initiative in India aimed at promoting apprenticeship training and skill development among the country's youth. The scheme seeks to bridge the gap between theoretical knowledge and practical skills, making youth more employable in various industries and sectors.",
+                "beneficiaries": 
+                   "The primary beneficiaries of the NAPS are Indian youth, particularly those seeking skill development and on-the-job training opportunities. It benefits both students and employers by providing a structured apprenticeship program."
+                ,
+                "targetSectors": 
+                  
+                    "Skill Development: NAPS focuses on enhancing the employability of young individuals by providing them with opportunities to gain hands-on experience and develop industry-specific skills.\nEmployers and Industries: The scheme encourages employers and industries to participate by offering apprenticeship positions, thereby contributing to the development of a skilled workforce.\nYouth Empowerment: NAPS empowers youth by offering them a chance to earn while they learn, making them more competitive in the job market."
+                  
+                ,
+                "eligibilityCriteria": "Eligibility for the NAPS program varies based on the specific apprenticeship positions and industries. Typically, candidates who have completed certain levels of education and meet age criteria are eligible to apply.",
+                "applicationProcess": "Candidates interested in NAPS apprenticeships can apply through the official NAPS portal or through designated training centers. Employers and industries looking to hire apprentices can also register and participate in the scheme through the portal.",
+                "documentsRequired": "Documentation requirements may include proof of educational qualifications, age proof, Aadhar card, and other relevant documents as specified by the employers or training centers.",
+                "schemeExplanation": "The National Apprenticeship Promotion Scheme (NAPS) plays a crucial role in addressing the skills gap in India by providing practical training opportunities to youth. It benefits both apprentices, who gain valuable skills and work experience, and employers, who have access to a skilled workforce. NAPS contributes to India's workforce development, economic growth, and job creation."
+              }
+              
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Safety and Protection",
+        "imagespath":"assets/Female_IT_specialist_holds-removebg-preview 1.png",
+        "subcategories": [
+            {
+                "id": 501,
+                "name": "One Stop Centre Scheme",
+                "description": "The One Stop Centre Scheme is an Indian government initiative aimed at providing assistance and support to women who are victims of violence and in need of immediate help and protection. These centers offer a range of services to empower and rehabilitate affected women and girls.",
+                "beneficiaries": 
+                 "The primary beneficiaries of the One Stop Centre Scheme are women and girls who have experienced various forms of violence, including domestic violence, sexual assault, and harassment. The scheme provides them with a safe and supportive environment to seek help and rehabilitation."
+                ,
+                "targetSectors": 
+                  
+                    "Crisis Intervention: One Stop Centres offer immediate assistance to victims in crisis situations, ensuring their safety and well-being.\nMedical Assistance: Victims receive medical care and treatment for injuries, including access to forensic examination when needed.\nLegal Aid: Legal support and counseling are provided to victims to help them seek justice and legal recourse against their perpetrators.\nPsychological Support: Counseling and psychological assistance are available to help victims cope with trauma and emotional distress.\nShelter and Rehabilitation: Safe shelter and rehabilitation services are provided to victims who need temporary accommodation and support.\nSkill Development: Women and girls are offered skill development programs to help them regain their independence and livelihood."
+                  
+                ,
+                "eligibilityCriteria": "The One Stop Centre Scheme is open to all women and girls who are victims of violence, regardless of age, income, or background. There are no specific eligibility criteria for accessing the services.",
+                "applicationProcess": "To seek assistance from a One Stop Centre, victims can simply walk in or contact the center's helpline. Trained staff at the center will guide them through the necessary processes and services.",
+                "documentsRequired": "No specific documents are required to access the services of a One Stop Centre. The focus is on providing immediate help and support to victims in distress.",
+                "schemeExplanation": "The One Stop Centre Scheme plays a crucial role in addressing gender-based violence and providing a lifeline to women and girls facing violence and abuse. These centers offer a safe and supportive environment where victims can access essential services, seek justice, and rebuild their lives. The scheme contributes to empowering women and girls, ensuring their rights and dignity, and combating violence against them."
+              },
+              
+              {
+                "id": 502,
+                "name": "Swadhar Greh Scheme",
+                "description": "The Swadhar Greh Scheme is an Indian government initiative that aims to provide shelter and support to women in difficult circumstances, including destitute women, victims of domestic violence, trafficking, and women in distress. The scheme focuses on rehabilitating and empowering these women to lead a dignified life.",
+                "beneficiaries": 
+                   "The primary beneficiaries of the Swadhar Greh Scheme are women who find themselves in vulnerable situations, such as destitution, abandonment, domestic violence, trafficking, or social distress. The scheme offers them shelter, care, and support."
+                ,
+                "targetSectors": 
+                 
+                    "Shelter and Accommodation: Swadhar Greh provides safe and secure shelter to women in need, offering them a place to live and basic amenities.\nCounseling and Rehabilitation: Women in distress receive counseling and rehabilitation services to help them cope with their situation and rebuild their lives.\nLegal Aid: Legal support is provided to help women access justice and address legal issues they may face, including cases related to domestic violence or trafficking.\nSkill Development: Training and skill development programs are offered to help women gain livelihood skills and become financially independent.\nHealthcare Services: Access to healthcare and medical services is provided to ensure the physical well-being of residents.\nPsycho-Social Support: Emotional and psychological support is available to help women recover from trauma and regain self-confidence."
+                  
+                ,
+                "eligibilityCriteria": "The Swadhar Greh Scheme is open to women who meet the following eligibility criteria:\n- Women above 18 years of age.\n- Women in need of shelter and support due to destitution, abandonment, domestic violence, trafficking, or other distressing circumstances.",
+                "applicationProcess": "Women in need of assistance under the Swadhar Greh Scheme can approach the nearest Swadhar Greh facility or contact the helpline. Trained staff at the facility will assist them in the application process.",
+                "documentsRequired": "While specific documents may vary by facility, women seeking shelter and support typically need to provide identification proof and share information about their circumstances to access the services.",
+                "schemeExplanation": "The Swadhar Greh Scheme plays a vital role in providing a safety net for vulnerable women facing challenging life situations. It offers them a chance to rebuild their lives, gain skills, access healthcare, and regain their independence. By addressing the needs of destitute and distressed women, the scheme contributes to their empowerment and social inclusion."
+              },
+              
+              {
+                "id": 503,
+                "name": "Sakhi: One Stop Centre Scheme",
+                "description": "The Sakhi: One Stop Centre Scheme is an Indian government initiative designed to provide support and assistance to women affected by violence and in distress. It offers a range of services to help women regain their dignity, safety, and well-being in a supportive and caring environment.",
+                "beneficiaries": 
+                  "The primary beneficiaries of the Sakhi: One Stop Centre Scheme are women who have experienced violence, including domestic violence, sexual assault, harassment, trafficking, or any other form of gender-based violence. The scheme provides them with essential support and services."
+                ,
+                "targetSectors": 
+                 
+                    "Crisis Intervention: The scheme offers immediate crisis intervention to provide safety and support to women in distress.\nMedical and Legal Assistance: Women receive medical and legal aid, including medical examinations and assistance with filing legal complaints.\nCounseling and Psychological Support: Counseling services are available to help women cope with trauma and regain their mental well-being.\nShelter and Accommodation: Safe shelter is provided to women who need protection from violence and abuse.\nAccess to Justice: The scheme assists women in accessing the legal system and seeking justice against perpetrators.\nSkill Development: Skill-building programs empower women to become financially independent and self-reliant.\nAwareness and Training: Awareness campaigns and training programs aim to prevent violence against women and promote gender equality."
+                  
+                ,
+                "eligibilityCriteria": "Women who have experienced any form of violence or distress are eligible for support under the Sakhi: One Stop Centre Scheme. There are no specific income or demographic restrictions for beneficiaries.",
+                "applicationProcess": "Women seeking assistance can approach the nearest One Stop Centre facility or contact the helpline. Trained staff at the facility will guide them through the application process and provide the necessary support.",
+                "documentsRequired": "While specific documents may vary depending on the situation, women seeking help typically need to provide identification proof and share information about their circumstances.",
+                "schemeExplanation": "The Sakhi: One Stop Centre Scheme plays a crucial role in addressing violence against women and providing them with a safe space to rebuild their lives. By offering comprehensive support services, including medical, legal, and psychological assistance, the scheme empowers women to overcome the trauma of violence and work towards a future free from abuse."
+              },
+              
+              {
+                "id": 504,
+                "name": "Women Helpline Scheme",
+                "description": "The Women Helpline Scheme is a government initiative in India aimed at providing immediate assistance and support to women in distress or facing various forms of violence. It operates a dedicated helpline number accessible nationwide to offer guidance, counseling, and help to women in need.",
+                "beneficiaries": 
+                   "The primary beneficiaries of the Women Helpline Scheme are women of all ages who require assistance, guidance, and support when facing distress, violence, harassment, or any form of gender-based discrimination."
+                ,
+                "helplineNumber": "The Women Helpline Scheme can be accessed through the national toll-free helpline number, which is a dedicated 24/7 helpline for women in distress. The helpline number is accessible across India and provides assistance in multiple languages.",
+                "targetSectors": 
+                  
+                    "Crisis Intervention: The helpline provides immediate crisis intervention to women facing distress or violence.\nCounseling and Guidance: Trained counselors offer telephonic counseling and guidance to women to address their concerns and provide emotional support.\nLegal Support: The scheme assists women by providing information about legal rights and options, helping them navigate legal procedures, and connecting them with legal experts when necessary.\nReferral Services: When required, the helpline can refer women to appropriate support services, shelters, medical facilities, or law enforcement agencies.\nSafety Planning: Women are helped in developing safety plans to protect themselves from further harm.\nPsychological Support: The helpline offers psychological support to help women cope with the emotional impact of distressing situations.\nInformation and Education: Women can access information about various government schemes and programs aimed at women's welfare and empowerment."
+                
+                ,
+                "eligibilityCriteria": "The Women Helpline Scheme is available to all women regardless of age, income, or background. There are no specific eligibility criteria for beneficiaries.",
+                "applicationProcess": "Women can access the Women Helpline Scheme by dialing the toll-free helpline number. There is no formal application process or documentation required to seek assistance.",
+                "schemeExplanation": "The Women Helpline Scheme plays a vital role in providing immediate support and assistance to women facing various challenges and distress. By offering a dedicated helpline accessible nationwide, the scheme ensures that women can seek help and guidance whenever they need it. This initiative aims to empower women, protect their rights, and create a safer and more supportive environment for women across the country.",
+                "documentsRequired": "There are no specific documents required to access the Women Helpline Scheme. Women can seek assistance by simply dialing the toll-free helpline number and sharing their concerns."
+              },
+              
+              {
+                "id": 505,
+                "name": "Nari Atyachar Monitoring Cells",
+                "description": "Nari Atyachar Monitoring Cells are an essential part of the government's efforts to combat violence and discrimination against women in India. These cells are established at various levels to monitor and address cases of atrocities and offenses against women, ensuring their safety, protection, and access to justice.",
+                "beneficiaries": 
+              "The primary beneficiaries of the Nari Atyachar Monitoring Cells are women who have experienced any form of violence, harassment, discrimination, or atrocities. These cells aim to provide them with support, legal assistance, and a platform to seek justice."
+                ,
+                "targetSectors":
+                    "Complaint Registration: Victims of violence or discrimination can register complaints with the Nari Atyachar Monitoring Cells.\nLegal Assistance: The cells provide legal guidance and assistance to victims, including information on their legal rights and procedures.\nCounseling and Support: Trained counselors offer emotional support and counseling to victims to help them cope with the trauma of their experiences.\nInvestigation and Follow-Up: The cells facilitate the investigation of cases, ensuring that perpetrators are held accountable.\nAwareness and Outreach: These cells conduct awareness campaigns and programs to educate communities about women's rights and the importance of reporting and addressing gender-based violence.\nPolicy Advocacy: National-level cells contribute to policy development and advocacy for women's rights and safety."
+                  ,
+                "eligibilityCriteria": "There are no specific eligibility criteria for women seeking assistance from Nari Atyachar Monitoring Cells. Any woman who has experienced violence, discrimination, or atrocities can approach these cells for support.",
+                "applicationProcess": "Women can approach Nari Atyachar Monitoring Cells by contacting the respective district-level or state-level cell directly. There is no formal application process, and victims are encouraged to seek help without hesitation.",
+                "schemeExplanation": "The Nari Atyachar Monitoring Cells play a crucial role in addressing and preventing violence and discrimination against women. By providing a platform for victims to seek assistance, legal support, and counseling, these cells contribute to creating a safer environment for women. Additionally, their advocacy efforts and policy contributions aim to bring about systemic change and protect the rights and dignity of women in India.",
+                "documentsRequired": "There are no specific documents required to seek assistance from Nari Atyachar Monitoring Cells. Women who have experienced violence, harassment, discrimination, or atrocities can directly contact these cells for support and assistance."
+              }
+              
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Sanitation and Hygiene",
+        "imagespath":"assets/Descargar_silueta_de_mujer_con_flor_gratis__1_-removebg-preview 1.png",
+        "subcategories": [
+          {
+            "id": 601,
+            "name": "Swachh Bharat Mission (Gramin) - Women Component",
+            "description": "The Swachh Bharat Mission (Gramin) - Women Component is a significant part of India's national cleanliness and sanitation campaign. It focuses on empowering women to actively participate in efforts to make rural areas open defecation-free and promote hygiene and cleanliness.",
+            "beneficiaries": 
+               "The primary beneficiaries of the Swachh Bharat Mission (Gramin) - Women Component are women residing in rural areas across India. The scheme aims to empower them to take the lead in improving sanitation and hygiene practices within their communities."
+            ,
+            "targetSectors": 
+           
+                "Construction of Toilets: The scheme supports the construction of household toilets in rural areas to eliminate open defecation.\nBehavior Change Communication: It conducts awareness campaigns and behavior change communication programs to educate communities, especially women, about the importance of proper sanitation and hygiene practices.\nCapacity Building: The scheme focuses on training and capacity building of women in rural areas to actively participate in sanitation and hygiene-related activities.\nCommunity Mobilization: Women are encouraged to mobilize their communities and participate in cleanliness drives, waste management, and sanitation initiatives.\nFinancial Support: Some components of the scheme may provide financial incentives to women and households for constructing and maintaining toilets."
+              
+            ,
+            "eligibilityCriteria": "The eligibility criteria for women to participate in the Women Component of the Swachh Bharat Mission (Gramin) may vary depending on specific program guidelines and state-level policies. Generally, women residing in rural areas are eligible to participate.",
+            "applicationProcess": "The application process for the Women Component of the Swachh Bharat Mission (Gramin) typically involves community-level participation and coordination with local authorities. Women interested in participating can engage with local government officials or designated agencies responsible for implementing the scheme.",
+            "schemeExplanation": "The Swachh Bharat Mission (Gramin) - Women Component recognizes the pivotal role women play in ensuring cleanliness and sanitation in rural areas. By empowering women through awareness campaigns, training, and financial support, the scheme aims to make rural areas open defecation-free and improve overall hygiene standards. Women's active involvement in community mobilization and behavior change communication contributes to healthier and cleaner rural environments.",
+            "documentsRequired": "The specific documents required for participation in the Women Component of the Swachh Bharat Mission (Gramin) may vary by state or program. Women interested in participating should inquire with local authorities or implementing agencies for any documentation or eligibility requirements."
+          }
+          
+              
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Agriculture and Allied Activities",
+        "imagespath":"assets/Power_Woman_Logo_Green_Purple_Color_Stock_Vector__Royalty_Free__1492446419___Shutterstock-removebg-preview 1.png",
+        "subcategories": [
+          {
+            "id": 701,
+            "name": "National Scheme for the Welfare of Fishermen and Training and Extension",
+            "description": "The National Scheme for the Welfare of Fishermen and Training and Extension is a government initiative in India aimed at promoting the welfare of fishermen and enhancing their livelihoods. It focuses on providing financial and social support to fishermen communities and improving their fishing techniques through training and extension programs.",
+            "beneficiaries": 
+              "The primary beneficiaries of this scheme are fishermen and their families, including those engaged in traditional and artisanal fishing activities. The scheme aims to uplift their socio-economic conditions and enhance their fishing skills and knowledge."
+            ,
+            "targetSectors": 
+              
+                "Financial Assistance: The scheme provides financial assistance to fishermen for the construction and repair of boats, acquisition of fishing equipment, and other livelihood-related activities.\nTraining and Capacity Building: Fishermen are offered training programs to enhance their fishing techniques, safety measures, and sustainable practices. This helps improve their income and protect marine resources.\nExtension Services: The scheme offers extension services to disseminate information on best practices, weather forecasts, and market trends, benefiting fishermen in making informed decisions.\nInsurance Coverage: Some components of the scheme may provide insurance coverage to fishermen and their families in case of accidents or natural disasters.\nCommunity Development: It supports community-level initiatives for infrastructure development in fishing villages, such as the construction of fishing harbors and landing centers."
+              
+            ,
+            "eligibilityCriteria": "The eligibility criteria for fishermen to avail benefits from this scheme may vary depending on state-specific policies and guidelines. Typically, fishermen engaged in traditional or artisanal fishing activities are eligible.",
+            "applicationProcess": "Fishermen can apply for benefits under this scheme through local fisheries department offices or designated agencies responsible for implementing the scheme. They need to provide necessary documentation and fulfill the eligibility criteria.",
+            "schemeExplanation": "The National Scheme for the Welfare of Fishermen and Training and Extension recognizes the importance of the fishing community in India's coastal regions. By providing financial support, training, and extension services, the scheme aims to improve the livelihoods of fishermen, promote sustainable fishing practices, and enhance the socio-economic conditions of fishing communities. This contributes to the well-being of fishermen and the conservation of marine resources.",
+            "documentsRequired": "The specific documents required for fishermen to apply for benefits under this scheme may include proof of identity, address, fishing activity engagement, and other relevant documents. It is advisable to contact the local fisheries department or implementing agency for the exact list of required documents as it may vary by region and state."
+          }
+          
+              ,
+              {
+                "id": 702,
+                "name": "Betika Scheme",
+                "description": "The Betika Scheme is a government initiative in India aimed at promoting the welfare and development of women engaged in the handicraft and handloom sectors. It focuses on providing financial support, training, and market linkages to empower women artisans and enhance their livelihoods.",
+                "beneficiaries": "The primary beneficiaries of the Betika Scheme are women artisans and weavers involved in the handicraft and handloom industries. The scheme aims to uplift their socio-economic conditions and preserve traditional craftsmanship."
+                ,
+                "targetSectors":
+                    "Financial Assistance: The scheme provides financial assistance to women artisans and weavers for the purchase of raw materials, tools, and equipment necessary for their craft.\nSkill Development and Training: Women beneficiaries are offered skill development and training programs to enhance their craftsmanship, design skills, and product quality.\nMarket Linkages: The scheme facilitates access to markets and marketing support, enabling women artisans to sell their products at fair prices and expand their customer base.\nCommunity Empowerment: It supports community-based organizations and cooperatives to strengthen the collective bargaining power of women artisans."
+                ,
+                "eligibilityCriteria": "The eligibility criteria for women artisans and weavers to avail benefits from this scheme may include active engagement in the handicraft or handloom sector. Specific eligibility details may vary by state or union territory.",
+                "applicationProcess": "Women artisans and weavers can apply for benefits under the Betika Scheme through designated offices or agencies responsible for implementing the scheme. They need to provide necessary documentation and fulfill the eligibility criteria.",
+                "schemeExplanation": "The Betika Scheme recognizes the significance of women's contribution to India's rich handicraft and handloom traditions. By offering financial support, training, and market access, the scheme empowers women artisans to improve their livelihoods and preserve traditional craftsmanship. This contributes to the economic empowerment of women and the promotion of indigenous art forms.",
+                "documentsRequired": "While the scheme does not specify detailed documentation requirements in the provided information, women artisans and weavers should be prepared to provide relevant documents related to their handicraft or handloom activities, such as proof of engagement in the sector, identification documents, and other records as needed. It is advisable to check with the implementing agency or office for specific documentation requirements."
+              },
+              
+              
+              {
+                "id": 703,
+                "name": "Agricultural Extension Schemes",
+                "description": "Agricultural Extension Schemes in India encompass a range of government initiatives aimed at improving agricultural practices, increasing crop yields, and enhancing the livelihoods of farmers. These schemes provide farmers with access to knowledge, technology, and resources to boost agricultural productivity and sustainability.",
+                "beneficiaries": 
+                  "The primary beneficiaries of Agricultural Extension Schemes are farmers across the country, including small and marginal farmers, who seek to enhance their agricultural practices and income."
+                ,
+                "targetSectors": 
+                    "Knowledge Dissemination: The schemes focus on disseminating agricultural knowledge, best practices, and new technologies to farmers through training programs, workshops, and demonstrations.\nFarm Inputs: They may provide subsidies or support for the procurement of quality seeds, fertilizers, pesticides, and other essential inputs required for farming.\nCrop Diversification: Promoting crop diversification to reduce risks and enhance income generation by introducing alternative crops and allied activities.\nSoil Health Management: Emphasis on soil testing and management to improve soil fertility and crop nutrition.\nMarket Linkages: Facilitating access to markets and fair pricing for farmers' produce, including the development of farmer producer organizations (FPOs).\nFarm Mechanization: Encouraging the adoption of modern farming machinery and equipment to reduce labor intensity and increase efficiency."
+                  
+                ,
+                "eligibilityCriteria": "Eligibility criteria for participation in these schemes are typically open to all categories of farmers, with specific components designed to benefit small and marginal farmers. Specific eligibility details may vary based on the particular scheme and state or union territory.",
+                "applicationProcess": "Farmers interested in availing benefits under Agricultural Extension Schemes can apply through local agricultural extension offices, cooperative societies, or online portals, as per the guidelines of the respective schemes. Documentation requirements may vary.",
+                "schemeExplanation": "Agricultural Extension Schemes play a crucial role in improving the agricultural sector's productivity and sustainability. By imparting knowledge, providing resources, and enhancing market access, these schemes empower farmers to make informed decisions and adopt modern farming techniques. The ultimate goal is to improve the socio-economic conditions of farmers and contribute to food security and rural development.",
+                "documentsRequired": "While there are generally no specific eligibility documents required for participation in Agricultural Extension Schemes, farmers may be required to provide relevant documentation for specific components, such as subsidy applications or land ownership verification. The exact documentation requirements may vary by scheme and region."
+              }
+              
+              
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Identity and Literacy",
+        "imagespath":"assets/Education_logo_with_open_book_and_abstract_student_vector_image_on_VectorStock-removebg-preview 1.png",
+        "subcategories": [
+          {
+            "id": 801,
+            "name": "National Literacy Mission",
+            "description": "The National Literacy Mission (NLM) is a government initiative in India aimed at eradicating illiteracy and promoting literacy and education among adults, particularly in rural and marginalized communities. The mission was launched to empower individuals through education and enhance their participation in socio-economic development.",
+            "beneficiaries": 
+               "The primary beneficiaries of the National Literacy Mission are illiterate and neo-literate adults, especially those from disadvantaged backgrounds and remote areas, who seek to acquire basic literacy and numeracy skills."
+            ,
+            "targetSectors":
+                "Adult Literacy Programs: NLM focuses on providing adult literacy programs that teach reading, writing, and basic numeracy skills to illiterate individuals.\nVocational Education: The mission also offers vocational education and skill development programs to enhance employability and income generation among participants.\nCommunity Participation: NLM encourages community participation and the involvement of local institutions, non-governmental organizations (NGOs), and volunteers in literacy campaigns.\nFunctional Literacy: Beyond basic reading and writing, NLM promotes functional literacy, which enables individuals to apply literacy skills in their daily lives.\nWomen's Literacy: Special efforts are made to promote women's literacy and empower them to actively participate in social and economic activities.\nMonitoring and Evaluation: The mission regularly monitors and evaluates its programs to assess progress and improve effectiveness."
+            
+            ,
+            "eligibilityCriteria": "Eligibility for participation in NLM's literacy programs is generally open to adults aged 15 years and above who are illiterate or have minimal literacy skills. Specific eligibility criteria may vary by state or union territory.",
+            "applicationProcess": "Illiterate individuals interested in joining NLM's literacy programs can typically enroll through local literacy centers, community-based organizations, or government agencies. The application process may involve basic registration and assessment of literacy levels.",
+            "schemeExplanation": "The National Literacy Mission plays a crucial role in addressing the issue of illiteracy in India. By imparting basic literacy skills and vocational education, it empowers adults to lead more productive lives, contribute to their communities, and break the cycle of poverty. Additionally, the mission helps create a more inclusive and literate society, fostering socio-economic development.",
+            "documentsRequired": "While there are generally no specific eligibility documents required to participate in NLM's literacy programs, participants may be asked to provide basic identification information during the enrollment process. It is advisable to check with the local literacy center or implementing agency for any specific requirements."
+          }
+          ,
+              
+          {
+            "id": 802,
+            "name": "Aadhar Scheme",
+            "description": "The Aadhar Scheme, officially known as the Aadhar Card or Unique Identification Authority of India (UIDAI), is a government initiative in India that aims to provide a unique 12-digit identity number to every resident of the country. The Aadhar card serves as a proof of identity and address and is used for various government and private sector services.",
+            "beneficiaries": 
+               "The Aadhar Scheme benefits all residents of India, regardless of age, gender, or socio-economic status. It provides a universal and unique identification number that simplifies access to government and financial services."
+            ,
+            "targetSectors":
+                "Unique Identification Number: The scheme assigns a unique 12-digit Aadhar number to each resident, which is linked to their biometric and demographic information.\nBiometric Data Collection: Aadhar collects biometric data, including fingerprints and iris scans, to ensure the uniqueness of the identity number.\nOnline Verification: The Aadhar card enables residents to verify their identity online, making it convenient for various services such as opening bank accounts, obtaining SIM cards, and more.\nDirect Benefit Transfer (DBT): The scheme facilitates the direct transfer of government benefits and subsidies to beneficiaries' bank accounts linked with Aadhar, reducing leakages and ensuring transparency.\ne-KYC (Know Your Customer): Aadhar-based e-KYC is widely used by financial institutions, telecom companies, and other service providers for customer verification.\nAuthentication Services: Aadhar provides authentication services to enable secure and efficient verification of individuals for access to services and benefits."
+              ,
+            "eligibilityCriteria": "The Aadhar Scheme does not have specific eligibility criteria, as it is intended for all residents of India. Anyone, including infants, can enroll for an Aadhar card.",
+            "enrollmentProcess": "Residents can enroll for an Aadhar card by visiting Aadhar enrollment centers, where they need to provide necessary documents and undergo biometric data collection. The enrollment process is free of cost.",
+            "schemeExplanation": "The Aadhar Scheme has revolutionized identity verification in India by providing a unique identification number to every resident. It simplifies access to government services, financial inclusion, and various private sector services. Additionally, Aadhar has played a crucial role in promoting transparency and efficiency in the distribution of government benefits and subsidies.",
+            "documentsRequired": "While there are no specific eligibility criteria for Aadhar enrollment, residents are typically required to provide documents to establish proof of identity and address. Commonly accepted documents include passport, voter ID card, ration card, and more. It's advisable to check the UIDAI website or contact the nearest enrollment center for the most up-to-date list of acceptable documents.",
+            "applicationProcess": "The application process for Aadhar enrollment involves visiting a nearby Aadhar enrollment center. Residents are required to fill out an enrollment form, provide the necessary documents to establish identity and address, and undergo biometric data collection, including fingerprints and iris scans. The enrollment process is free of cost, and residents are provided with an acknowledgment slip containing an enrollment number that can be used to track the status of their Aadhar card."
+          }
+          
+              
+              
+        ]
+      }
+     
+        
+      
+    ]
+  }
+  
