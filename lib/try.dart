@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class TextFormatter {
   static Widget formatTargetSectors(String inputText) {
@@ -17,12 +18,19 @@ class TextFormatter {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              '$beforeColon-',
-              style: const TextStyle(fontWeight: FontWeight.bold),
+              '$beforeColon:',
+              style: GoogleFonts.leagueSpartan(
+                fontSize: 15,
+                fontWeight: FontWeight.w700,
+              ),
             ),
             Text(
-              afterColon,
-              textAlign: TextAlign.start, // Align text to the beginning
+              "$afterColon\n",
+              style: GoogleFonts.leagueSpartan(
+                fontSize: 15,
+                fontWeight: FontWeight.w400,
+              ),
+              textAlign: TextAlign.justify, // Align text to the beginning
             ),
           ],
         );
@@ -31,7 +39,7 @@ class TextFormatter {
         formattedWidgets.add(
           Text(
             line,
-            textAlign: TextAlign.start, // Align text to the beginning
+            textAlign: TextAlign.justify, // Align text to the beginning
           ),
         );
       }

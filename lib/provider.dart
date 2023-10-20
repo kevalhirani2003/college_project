@@ -41,27 +41,12 @@ class CategoryCubit extends Cubit<CategoryState> {
       final List<dynamic> categoryList = data['categories'];
 
       final categories = categoryList.map((categoryData) {
-        final List<dynamic> subcategoryList = categoryData['subcategories'];
-
-        final subcategories = subcategoryList.map((subcategoryData) {
-          return Subcategory(
-            subcategoryData['name'] ?? '',
-            subcategoryData['description'] ?? '',
-            subcategoryData['beneficiaries'] ?? '',
-            subcategoryData['targetSectors'] ?? '',
-            subcategoryData['eligibilityCriteria'] ?? '',
-            subcategoryData['applicationProcess'] ?? '',
-            subcategoryData['documentsRequired'] ?? '',
-            subcategoryData['schemeExplanation'] ?? '',
-          );
-        }).toList();
-
         final imagePath = categoryData['imagespath'] ?? '';
 
         return Category(
           categoryData['id']?.toString() ?? '', // Add the ID property
           categoryData['name'] ?? '',
-          subcategories,
+
           imagePath,
         );
       }).toList();
@@ -83,30 +68,8 @@ class CategoryCubit extends Cubit<CategoryState> {
 class Category {
   final String id;
   final String name;
-  final List<Subcategory> subcategories;
+
   final String imagePath;
 
-  Category(this.id, this.name, this.subcategories, this.imagePath);
-}
-
-class Subcategory {
-  final String name;
-  final String description;
-  final String beneficiaries;
-  final String targetSectors;
-  final String eligibilityCriteria;
-  final String applicationProcess;
-  final String documentsRequired;
-  final String schemeExplanation;
-
-  Subcategory(
-    this.name,
-    this.description,
-    this.beneficiaries,
-    this.targetSectors,
-    this.eligibilityCriteria,
-    this.applicationProcess,
-    this.documentsRequired,
-    this.schemeExplanation,
-  );
+  Category(this.id, this.name, this.imagePath);
 }

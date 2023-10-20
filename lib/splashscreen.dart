@@ -69,19 +69,15 @@ class _splashscreenState extends State<splashscreen> {
                     Positioned(
                       bottom: size.height * 0.36,
                       left: size.width * 0.1,
-                      child: Container(
-                        child: Text("WomenWings",
-                            style: GoogleFonts.mrDafoe(fontSize: 25)),
-                      ),
+                      child: Text("WomenWings",
+                          style: GoogleFonts.mrDafoe(fontSize: 25)),
                     ),
                     Positioned(
                       top: size.height * 0.9,
-                      child: Container(
-                        child: Text(
-                          "\"Strong Women, Strong World\"",
-                          style: GoogleFonts.barlow(
-                              fontSize: 14, fontWeight: FontWeight.w700),
-                        ),
+                      child: Text(
+                        "\"Strong Women, Strong World\"",
+                        style: GoogleFonts.barlow(
+                            fontSize: 14, fontWeight: FontWeight.w700),
                       ),
                     )
                   ],

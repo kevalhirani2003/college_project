@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import 'package:womenwings/provider.dart';
 import 'package:womenwings/routes.dart';
 import 'package:womenwings/splashscreen.dart';
@@ -28,10 +27,6 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
         initialRoute: MyRoutes.splashRoute,
         routes: {
           MyRoutes.splashRoute: (context) => const splashscreen(),

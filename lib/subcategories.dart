@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+// Define the Category class (replace with your actual Category class)
+
 // Define the events
 abstract class SubcategoryEvent {}
 
@@ -29,6 +31,7 @@ class SubcategoryError extends SubcategoryState {
   SubcategoryError(this.errorMessage);
 }
 
+// Define the Subcategory class (replace with your actual Subcategory class)
 class Subcategory {
   final String name;
   final String description;
@@ -37,19 +40,23 @@ class Subcategory {
   final String eligibilityCriteria;
   final String applicationProcess;
   final String documentsRequired;
+  final String implementation;
   final String schemeExplanation;
 
   Subcategory(
-      this.name,
-      this.description,
-      this.beneficiaries,
-      this.targetSectors,
-      this.eligibilityCriteria,
-      this.applicationProcess,
-      this.documentsRequired,
-      this.schemeExplanation);
+    this.name,
+    this.description,
+    this.beneficiaries,
+    this.targetSectors,
+    this.eligibilityCriteria,
+    this.applicationProcess,
+    this.documentsRequired,
+    this.implementation,
+    this.schemeExplanation,
+  );
 }
 
+// Define the SubcategoryCubit
 class SubcategoryCubit extends Cubit<SubcategoryState> {
   SubcategoryCubit() : super(SubcategoryLoading());
 
@@ -75,11 +82,12 @@ class SubcategoryCubit extends Cubit<SubcategoryState> {
           return Subcategory(
             subcategoryData['name'] ?? '',
             subcategoryData['description'] ?? '',
-            subcategoryData['beneficiaries'] ?? {},
-            subcategoryData['targetSectors'] ?? {},
+            subcategoryData['beneficiaries'] ?? '',
+            subcategoryData['targetSectors'] ?? '',
             subcategoryData['eligibilityCriteria'] ?? '',
             subcategoryData['applicationProcess'] ?? '',
             subcategoryData['documentsRequired'] ?? '',
+            subcategoryData['implementation'] ?? '',
             subcategoryData['schemeExplanation'] ?? '',
           );
         }).toList();
