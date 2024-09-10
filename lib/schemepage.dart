@@ -143,15 +143,36 @@ class SubcategoryScreen extends StatelessWidget {
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(
                                             mediaQuery.size.width * 0.04)),
-                                    color: Colors.grey[200]),
+                                    color: Colors.white),
                                 child: Column(
                                   children: [
-                                    Text(
-                                      subcategory.name,
-                                      style: GoogleFonts.leagueSpartan(
-                                          fontSize: fontSize * 1.7,
-                                          fontWeight: fontWeight),
-                                      textAlign: TextAlign.center,
+                                    Container(
+                                      height: containerHeight * 0.60,
+                                      width: mediaQuery.size.width,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.only(
+                                            topLeft: Radius.circular(
+                                                mediaQuery.size.width * 0.04),
+                                            topRight: Radius.circular(
+                                                mediaQuery.size.width * 0.04)),
+                                        image: DecorationImage(
+                                          image: AssetImage(subcategory.image),
+                                          fit: BoxFit.cover,
+                                        ),
+                                      ),
+                                    ),
+                                    Container(
+                                      width: MediaQuery.of(context).size.width *
+                                          0.5,
+                                      child: Text(
+                                        subcategory.name,
+                                        maxLines: 2,
+                                        overflow: TextOverflow.ellipsis,
+                                        style: GoogleFonts.leagueSpartan(
+                                            fontSize: fontSize * 1.5,
+                                            fontWeight: fontWeight),
+                                        textAlign: TextAlign.center,
+                                      ),
                                     ),
                                     GestureDetector(
                                       onTap: () {

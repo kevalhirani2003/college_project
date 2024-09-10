@@ -65,7 +65,6 @@ class _MainPageState extends State<MainPage> {
                     "Category: ${category.name}, Image Path: ${category.imagePath}");
               }
               return SingleChildScrollView(
-                // Wrap with SingleChildScrollView
                 child: Column(
                   children: [
                     Container(
@@ -87,12 +86,9 @@ class _MainPageState extends State<MainPage> {
                       child: Column(
                         children: [
                           Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              IconButton(
-                                onPressed: () {},
-                                icon:
-                                    Icon(Icons.menu, size: responsiveSize(30)),
-                              ),
                               SizedBox(
                                 width: responsiveSize(10),
                               ),
@@ -147,10 +143,10 @@ class _MainPageState extends State<MainPage> {
                               ),
                               child: Padding(
                                 padding: EdgeInsets.only(
-                                    top: responsiveSize(2),
-                                    left: responsiveSize(20),
-                                    right: responsiveSize(20),
-                                    bottom: responsiveSize(5)),
+                                  top: responsiveSize(2),
+                                  left: responsiveSize(20),
+                                  right: responsiveSize(20),
+                                ),
                                 child: GridView.builder(
                                   gridDelegate:
                                       SliverGridDelegateWithFixedCrossAxisCount(

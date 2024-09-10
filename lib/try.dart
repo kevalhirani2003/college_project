@@ -20,14 +20,18 @@ class TextFormatter {
             Text(
               '$beforeColon:',
               style: GoogleFonts.leagueSpartan(
-                fontSize: 15,
+                fontSize: 13,
+                letterSpacing: 0.1,
+                height: 1.2,
                 fontWeight: FontWeight.w700,
               ),
             ),
             Text(
               "$afterColon\n",
               style: GoogleFonts.leagueSpartan(
-                fontSize: 15,
+                fontSize: 13,
+                letterSpacing: 0.001,
+                height: 1.2,
                 fontWeight: FontWeight.w400,
               ),
               textAlign: TextAlign.justify, // Align text to the beginning
@@ -45,7 +49,6 @@ class TextFormatter {
       }
     }
 
-    // Create a Column to display the formatted widgets
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: formattedWidgets,

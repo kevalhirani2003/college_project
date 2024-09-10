@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:womenwings/provider.dart';
 import 'package:womenwings/routes.dart';
@@ -6,7 +7,12 @@ import 'package:womenwings/splashscreen.dart';
 import 'package:womenwings/subcategories.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations(
+          [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
+      .then((_) async {
+    runApp(const MyApp());
+  });
 }
 
 class MyApp extends StatelessWidget {
@@ -26,7 +32,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'WOMEN WINGS',
         initialRoute: MyRoutes.splashRoute,
         routes: {
           MyRoutes.splashRoute: (context) => const splashscreen(),

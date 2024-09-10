@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:womenwings/provider.dart';
 import 'package:womenwings/subcategories.dart';
 import 'package:womenwings/try.dart'; // Replace with your import path for Subcategory and Category
@@ -16,17 +18,29 @@ class SubcategoryDescriptionScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final mediaQuery = MediaQuery.of(context);
-    // Define responsive font size based on screen width
-    double fontSize = mediaQuery.size.width * 0.03;
-    // Define responsive container height
-    double containerHeight = mediaQuery.size.height * 0.25;
-    // Define responsive text weight
+    double fontSize(BuildContext context, double size) {
+      return size * MediaQuery.of(context).textScaleFactor;
+    }
+
+    double containerHeight(BuildContext context) {
+      return MediaQuery.of(context).size.height;
+    }
+
+    double containerWidth(BuildContext context) {
+      return MediaQuery.of(context).size.width;
+    }
+
     FontWeight fontWeight = FontWeight.bold;
+    Future<void> launchUrlStart({required String url}) async {
+      if (!await launchUrl(Uri.parse(url))) {
+        throw 'Could not launch $url';
+      }
+    }
+
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
-          height: mediaQuery.size.height,
+          height: containerHeight(context),
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment.topCenter,
@@ -57,53 +71,43 @@ class SubcategoryDescriptionScreen extends StatelessWidget {
           child: Column(
             children: [
               Padding(
-                padding: EdgeInsets.only(top: mediaQuery.size.height * 0.03),
+                padding: EdgeInsets.only(top: containerHeight(context) * 0.03),
                 child: Container(
-                  height: mediaQuery.size.height * 0.1,
-                  width: mediaQuery.size.width,
-                  child: Center(
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        IconButton(
-                          icon: Icon(Icons.arrow_back),
-                          onPressed: () {
-                            Navigator.of(context).pop();
-                          },
-                        ),
-                        Container(
-                          height: mediaQuery.size.height * 0.07,
-                          width: mediaQuery.size.width * 0.14,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                              image: AssetImage(selectedCategory.imagePath),
-                              fit: BoxFit.contain,
-                            ),
+                  height: containerHeight(context) * 0.1,
+                  width: containerWidth(context),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      IconButton(
+                        icon: Icon(Icons.arrow_back),
+                        onPressed: () {
+                          Navigator.of(context).pop();
+                          context.read<CategoryCubit>().loadCategories();
+                        },
+                      ),
+                      Container(
+                        height: containerHeight(context) * 0.07,
+                        width: containerWidth(context) * 0.14,
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(selectedCategory.imagePath),
+                            fit: BoxFit.contain,
                           ),
                         ),
-                        Expanded(
-                          // Wrap this section with Expanded
-                          child: Column(
-                            children: [
-                              SizedBox(
-                                height: mediaQuery.size.height * 0.045,
-                              ),
-                              Container(
-                                child: Text(
-                                  selectedCategory.name.toString(),
-                                  style: GoogleFonts.leagueSpartan(
-                                    fontSize: fontSize * 2,
-                                    fontWeight: fontWeight,
-                                  ),
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                ),
-                              ),
-                            ],
-                          ),
+                      ),
+                      SizedBox(width: containerWidth(context) * 0.02),
+                      Container(
+                        width: containerWidth(context) * 0.7,
+                        child: Text(
+                          selectedCategory.name.toString(),
+                          style: GoogleFonts.leagueSpartan(
+                              fontSize: fontSize(context, 21),
+                              fontWeight: fontWeight),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
                         ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -137,7 +141,20 @@ class SubcategoryDescriptionScreen extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          height: 12,
+                          height: containerHeight(context) * 0.015,
+                        ),
+                        Container(
+                          height: containerHeight(context) * 0.24,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15),
+                            image: DecorationImage(
+                              image: AssetImage(subcategory.image),
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+                        SizedBox(
+                          height: containerHeight(context) * 0.017,
                         ),
                         Container(
                           decoration: BoxDecoration(
@@ -152,112 +169,240 @@ class SubcategoryDescriptionScreen extends StatelessWidget {
                               ],
                               color: Color.fromRGBO(246, 236, 236, 1)),
                           child: Padding(
-                            padding: const EdgeInsets.all(10.0),
+                            padding:
+                                EdgeInsets.all(containerWidth(context) * 0.06),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
                                   subcategory.name + ":-",
-                                  style: TextStyle(
-                                    fontSize: 13,
-                                    fontWeight: FontWeight.w700,
+                                  style: GoogleFonts.leagueSpartan(
+                                    fontSize: fontSize(context, 13),
+                                    fontWeight: FontWeight.bold,
                                   ),
                                 ),
                                 Text(
                                   subcategory.description,
-                                  style: TextStyle(
+                                  style: GoogleFonts.leagueSpartan(
+                                    letterSpacing: 0.1,
+                                    height: 1.2,
                                     fontSize: 13,
                                     fontWeight: FontWeight.w400,
                                   ),
                                   textAlign: TextAlign.justify,
                                 ),
-                                const SizedBox(height: 16),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.02),
                                 Container(
                                   decoration: BoxDecoration(
                                       color: Color.fromRGBO(255, 132, 174, 1),
                                       borderRadius: BorderRadius.circular(10)),
-                                  height: mediaQuery.size.height * 0.025,
-                                  width: 140,
-                                  child: const Text(
-                                    'Beneficiaries:-',
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
+                                  height: containerHeight(context) * 0.035,
+                                  width: containerHeight(context) * 0.2,
+                                  child: Center(
+                                    child: Text(
+                                      'Beneficiaries:-',
+                                      style: GoogleFonts.leagueSpartan(
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      textAlign: TextAlign.center,
                                     ),
-                                    textAlign: TextAlign.center,
                                   ),
                                 ),
-                                const SizedBox(height: 8),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.01),
                                 Text(
-                                  subcategory.beneficiaries.toString(),
-                                  style: TextStyle(
+                                  subcategory.beneficiaries,
+                                  style: GoogleFonts.leagueSpartan(
+                                    letterSpacing: 0.1,
+                                    height: 1.2,
                                     fontSize: 13,
                                     fontWeight: FontWeight.w400,
                                   ),
                                   textAlign: TextAlign.justify,
                                 ),
-                                const SizedBox(height: 16),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.02),
                                 Container(
                                   decoration: BoxDecoration(
                                       color: Color.fromRGBO(255, 132, 174, 1),
                                       borderRadius: BorderRadius.circular(10)),
-                                  height: mediaQuery.size.height * 0.025,
-                                  width: 170,
-                                  child: const Text(
-                                    'Target Sectors:-',
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
+                                  height: containerHeight(context) * 0.035,
+                                  width: containerHeight(context) * 0.2,
+                                  child: Center(
+                                    child: Text(
+                                      'Target Sectors:-',
+                                      style: GoogleFonts.leagueSpartan(
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      textAlign: TextAlign.center,
                                     ),
-                                    textAlign: TextAlign.center,
                                   ),
                                 ),
                                 const SizedBox(height: 8),
                                 TextFormatter.formatTargetSectors(
                                   subcategory.targetSectors.toString(),
                                 ),
-                                const SizedBox(height: 16),
-                                const Text(
-                                  'Eligibility Criteria:',
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
+                                Container(
+                                  decoration: BoxDecoration(
+                                      color: Color.fromRGBO(255, 132, 174, 1),
+                                      borderRadius: BorderRadius.circular(10)),
+                                  height: containerHeight(context) * 0.035,
+                                  width: containerHeight(context) * 0.2,
+                                  child: Center(
+                                    child: Text(
+                                      'Eligibility Criteria:-',
+                                      style: GoogleFonts.leagueSpartan(
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
                                   ),
                                 ),
-                                const SizedBox(height: 8),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.01),
                                 Text(
-                                    subcategory.eligibilityCriteria.toString()),
-                                const SizedBox(height: 16),
-                                const Text(
-                                  'Application Process:',
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
+                                  subcategory.eligibilityCriteria,
+                                  style: GoogleFonts.leagueSpartan(
+                                    letterSpacing: 0.1,
+                                    height: 1.2,
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.w400,
+                                  ),
+                                  textAlign: TextAlign.justify,
+                                ),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.02),
+                                Container(
+                                  decoration: BoxDecoration(
+                                      color: Color.fromRGBO(255, 132, 174, 1),
+                                      borderRadius: BorderRadius.circular(10)),
+                                  height: containerHeight(context) * 0.035,
+                                  width: containerHeight(context) * 0.2,
+                                  child: Center(
+                                    child: Text(
+                                      'Application Process:-',
+                                      style: GoogleFonts.leagueSpartan(
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
                                   ),
                                 ),
-                                const SizedBox(height: 8),
-                                Text(subcategory.applicationProcess.toString()),
-                                const SizedBox(height: 16),
-                                const Text(
-                                  'Documents Required:',
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
+                                SizedBox(
+                                    height: containerHeight(context) * 0.01),
+                                Text(
+                                  subcategory.applicationProcess,
+                                  style: GoogleFonts.leagueSpartan(
+                                    letterSpacing: 0.1,
+                                    height: 1.2,
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.w400,
+                                  ),
+                                  textAlign: TextAlign.justify,
+                                ),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.02),
+                                Container(
+                                  decoration: BoxDecoration(
+                                      color: Color.fromRGBO(255, 132, 174, 1),
+                                      borderRadius: BorderRadius.circular(10)),
+                                  height: containerHeight(context) * 0.035,
+                                  width: containerHeight(context) * 0.2,
+                                  child: Center(
+                                    child: Text(
+                                      'Documents Required:-',
+                                      style: GoogleFonts.leagueSpartan(
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
                                   ),
                                 ),
-                                const SizedBox(height: 8),
-                                Text(subcategory.documentsRequired.toString()),
-                                const SizedBox(height: 16),
-                                const Text(
-                                  'Implementation:',
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
+                                SizedBox(
+                                    height: containerHeight(context) * 0.01),
+                                Text(
+                                  subcategory.documentsRequired,
+                                  style: GoogleFonts.leagueSpartan(
+                                    letterSpacing: 0.1,
+                                    height: 1.2,
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.w400,
+                                  ),
+                                  textAlign: TextAlign.justify,
+                                ),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.02),
+                                Container(
+                                  decoration: BoxDecoration(
+                                      color: Color.fromRGBO(255, 132, 174, 1),
+                                      borderRadius: BorderRadius.circular(10)),
+                                  height: containerHeight(context) * 0.035,
+                                  width: containerHeight(context) * 0.2,
+                                  child: Center(
+                                    child: Text(
+                                      'Implementation:-',
+                                      style: GoogleFonts.leagueSpartan(
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
                                   ),
                                 ),
-                                const SizedBox(height: 8),
-                                Text(subcategory.implementation.toString()),
-                                const SizedBox(height: 16),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.01),
+                                Text(
+                                  subcategory.implementation,
+                                  style: GoogleFonts.leagueSpartan(
+                                    letterSpacing: 0.1,
+                                    height: 1.2,
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.w400,
+                                  ),
+                                  textAlign: TextAlign.justify,
+                                ),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.04),
+                                Center(
+                                  child: Text(
+                                    "URL to the Schemes Web Site",
+                                    style: GoogleFonts.leagueSpartan(
+                                      fontSize: fontSize(context, 13),
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(
+                                    height: containerHeight(context) * 0.01),
+                                GestureDetector(
+                                  onTap: () {
+                                    launchUrlStart(url: subcategory.urladdress);
+                                  },
+                                  child: Center(
+                                    child: Container(
+                                      width: containerWidth(context) * 0.6,
+                                      child: Text(
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
+                                        textAlign: TextAlign.center,
+                                        subcategory.urladdress,
+                                        style: GoogleFonts.leagueSpartan(
+                                          decorationColor: Color(0xFFFF0000),
+                                          decoration: TextDecoration.underline,
+                                          color: Color(0xFFFF0000),
+                                          fontSize: fontSize(context, 13),
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
                               ],
                             ),
                           ),

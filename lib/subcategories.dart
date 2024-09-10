@@ -42,6 +42,8 @@ class Subcategory {
   final String documentsRequired;
   final String implementation;
   final String schemeExplanation;
+  final String urladdress;
+  final String image;
 
   Subcategory(
     this.name,
@@ -53,6 +55,8 @@ class Subcategory {
     this.documentsRequired,
     this.implementation,
     this.schemeExplanation,
+    this.urladdress,
+    this.image,
   );
 }
 
@@ -89,6 +93,8 @@ class SubcategoryCubit extends Cubit<SubcategoryState> {
             subcategoryData['documentsRequired'] ?? '',
             subcategoryData['implementation'] ?? '',
             subcategoryData['schemeExplanation'] ?? '',
+            subcategoryData['urladdress'] ?? '',
+            subcategoryData['imagespath'] ?? '',
           );
         }).toList();
 
